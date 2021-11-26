@@ -1,0 +1,6 @@
+@media screen and (max-width:600px) {
+    .blog .card {
+        width: 15rem !important;
+        margin: 2% auto;
+    }
+}
