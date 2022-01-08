@@ -1057,3 +1057,1163 @@
     justify-content: center;
     align-items: center;
 }
+/* -----Service provider > upcoming services starts here----- */
+.upcoming-service-banner .navbar,
+ .customer-screen-banner .navbar {
+     z-index: 11;
+ }
+ 
+ 
+ .upcoming-service-banner .navbar-expand-lg .navbar-nav .dropdown .dropdown-menu::before,
+ .customer-screen-banner .navbar-expand-lg .navbar-nav .dropdown .dropdown-menu::before {
+     position: absolute;
+     top: 0;
+     content: "";
+     border-width: 0 9px 14px 9px;
+     border-style: solid;
+     border-color: transparent transparent #ccc transparent;
+     top: -14px;
+     right: 34px;
+ }
+ 
+ .upcoming-service-banner .notification-icon-smallscreen,
+ .customer-screen-banner .notification-icon-smallscreen {
+     display: none;
+ }
+ 
+ .upcoming-service-banner .navbar-expand-lg .navbar-nav .dropdown .dropdown-menu::after,
+ .customer-screen-banner .navbar-expand-lg .navbar-nav .dropdown .dropdown-menu::after {
+     position: absolute;
+     top: 0;
+     content: "";
+     border-width: 0 8px 12px 8px;
+     border-style: solid;
+     border-color: transparent transparent #fff transparent;
+     top: -12px;
+     right: 35px;
+ }
+ 
+ 
+ .upcoming-service-banner .faq-nav .navbar-nav,
+ .upcoming-service-banner .faq-nav .navbar-nav .noti-user-icons,
+ .customer-screen-banner .faq-nav .navbar-nav .noti-user-icons {
+     display: flex;
+     align-items: center;
+ }
+ 
+ .upcoming-service-banner .faq-nav .navbar-nav .notification-icon span,
+ .customer-screen-banner .faq-nav .navbar-nav .notification-icon span {
+     position: absolute;
+     right: 7%;
+     top: 3.5%;
+     color: white;
+     height: 23px;
+     width: 20px;
+     text-align: center;
+     background-color: red;
+     border-radius: 50%;
+ }
+ 
+ .upcoming-service-banner .faq-nav .nav-item,
+ .customer-screen-banner .faq-nav .nav-item {
+     padding: 10px;
+     margin-right: 5px;
+ }
+ 
+ .logout-modal .modal-body .logout-modal-content .logout-green-circle {
+     height: 50px;
+     width: 50px;
+     background-color: #67b644;
+     text-align: center;
+     margin: 20px auto;
+     border-radius: 50%;
+ }
+ 
+ .logout-modal .modal-body .logout-modal-content .logout-green-circle img {
+     height: 20px;
+     width: 25px;
+     margin-top: 15px;
+ }
+ 
+ .logout-modal .modal-body .logout-modal-content h5 {
+     text-align: center;
+     color: #4F4F4F;
+     margin-top: 1.5rem;
+ }
+ 
+ .logout-modal .modal-content .modal-footer {
+     justify-content: center;
+     border-top: 0;
+ }
+ 
+ .logout-modal .modal-content .modal-footer .btn-logout-ok {
+     outline: none;
+     border: 1px solid #1D7A8C;
+     background-color: #1D7A8C;
+     height: 46px;
+     width: 80px;
+     border-radius: 46px;
+     color: white;
+     margin-bottom: 10px;
+ }
+ 
+ .upcoming-service-banner .faq-nav .noti-user-icons .notification-icon,
+ .customer-screen-banner .faq-nav .noti-user-icons .notification-icon {
+     border-left: 1px solid white;
+     border-right: 1px solid white;
+ }
+ 
+ .upcoming-service-banner .faq-nav .noti-user-icons .user-icon .dropdown-toggle::after,
+ .customer-screen-banner .faq-nav .noti-user-icons .user-icon .dropdown-toggle::after {
+     display: none !important;
+ }
+ 
+ .noti-user-icons .user-icon button {
+     background-color: #525252;
+     outline: none;
+     border: none;
+     margin-right: 10px;
+ }
+ 
+ .noti-user-icons .user-icon .sp-down-arrow {
+     margin-left: -8px;
+ }
+ 
+ .user-icon .dropdown-menu .username {
+     padding: 0.25rem 1rem;
+ }
+ 
+ .user-icon .dropdown-menu .username p {
+     margin-bottom: 0;
+ }
+ 
+ .user-icon .dropdown-menu .username b {
+     display: block;
+ }
+ 
+ .welcome-user {
+     height: 119px;
+     background-color: #F9F9F9;
+     margin-top: 3.7rem;
+     display: table;
+     width: 100%;
+     border: 1px solid #F6F6F6;
+ }
+ 
+ .welcome-user .welcome-text {
+     display: table-cell;
+     text-align: center;
+     vertical-align: middle;
+     color: #4F4F4F;
+ }
+ 
+ .tab-sections .container-fluid .main-content {
+     margin: 0 0.8rem;
+ }
+ 
+ .tab-sections .nav-tab {
+     width: 235px;
+     height: 712px;
+     background-color: #1D7A8C;
+     border: 1px solid #1D7A8C;
+     margin-bottom: 1.5rem;
+ }
+ 
+ .tab-sections .nav-tab .nav-link.active {
+     background-color: #146371;
+ }
+ 
+ .tab-sections .nav-tab,
+ .tab-sections .tab-content {
+     margin-top: 1.5rem;
+ }
+ 
+ .new-service .table {
+     margin-top: 1rem;
+ }
+ 
+ .new-service .table .btn-cancel button {
+     background-color: #1D7A8C;
+ }
+ 
+ .new-service .shown-records .form-check {
+     margin-left: 0.8rem;
+ }
+ 
+ .new-service .shown-records {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .new-service .shown-records .col-md-6 {
+     width: 100%;
+ }
+ 
+ .new-service .shown-records .form-check label {
+     margin-top: 0;
+ }
+ 
+ .new-service .shown-records .form-check-input:checked {
+     background-color: #1D7A8C;
+     border-color: #1D7A8C;
+ }
+ 
+ .tab-sections .tab-content .table {
+     padding: 0.5rem 1rem !important;
+     color: #646464;
+     /* margin-left: 1rem; */
+     border: 1px solid #E1E1E1;
+     border-radius: 10px !important;
+ }
+ 
+ .tab-sections .tab-content .table>thead {
+     vertical-align: middle;
+     border-bottom: 1px solid #E1E1E1 !important;
+ }
+ 
+ .tab-sections .tab-content .table-header {
+     height: 49px;
+     background-color: #ECECEC;
+ }
+ 
+ .tab-sections .tab-content .table-header a {
+     text-decoration: none;
+     color: #646464;
+ }
+ 
+ .tab-sections .tab-content .table td {
+     vertical-align: middle;
+ }
+ 
+ .tab-sections .tab-content .upcoming-service-table .td-address a,
+ .tab-sections .tab-content .new-service .td-address a,
+ .tab-sections .tab-content .service-history-table .td-address a {
+     text-decoration: none;
+     color: #4f4f4f;
+ }
+ 
+ .tab-sections .nav-tab .nav-link {
+     color: white;
+     border-bottom: 1px solid #CCCCCC;
+     padding: 13px 15px;
+ }
+ 
+ .tab-content .service-info {
+     display: flex;
+     white-space: nowrap;
+ }
+ 
+ .tab-content .service-datetime-icons img {
+     display: block;
+     margin-top: 5px;
+ }
+ 
+ .tab-content .service-datetime-texts {
+     display: block;
+     margin-left: 5px;
+     margin-top: 3px;
+ }
+ 
+ .tab-content .service-datetime-texts a {
+     text-decoration: none;
+     color: #646464;
+ }
+ 
+ .tab-content .service-address-texts {
+     margin-left: 5px;
+ }
+ 
+ .tab-content p {
+     margin-bottom: 0;
+ }
+ 
+ .tab-content .btn-cancel button,
+ .block-customer .card .btn-block button,
+ .favourite-sp .card .btn-block button {
+     width: 80px;
+     height: 34px;
+     background-color: #FF6B6B;
+     color: white;
+     outline: none;
+     border: none;
+     border-radius: 34px;
+ }
+ /* sidebar */
+ 
+ .sidebar {
+     height: 100vh;
+     width: 18rem;
+     position: fixed;
+     top: 10%;
+     right: -100%;
+     z-index: 100;
+     background-color: #fff;
+     transition: .5s;
+ }
+ 
+ .sidebar.active {
+     right: 0%;
+ }
+ 
+ .sidebar .username p {
+     margin-bottom: 0;
+ }
+ 
+ .sidebar .username {
+     color: #424242;
+     padding-top: 10px;
+ }
+ 
+ .sidebar .username,
+ .sidebar .sidebar-social-icons {
+     padding-left: 15px;
+     padding-bottom: 10px;
+ }
+ 
+ .sidebar .sidebar-social-icons i {
+     font-size: 18px;
+     padding: 5px;
+ }
+ 
+ .sidebar .sidebar-social-icons {
+     text-align: center;
+     margin-top: 1rem;
+ }
+ 
+ .sidebar .navbar-nav {
+     border-top: 1px solid #E4EBF0;
+ }
+ 
+ .sidebar .navigation .nav-item {
+     padding-left: 15px;
+ }
+ 
+ .sidebar .navigation .nav-link {
+     text-decoration: none;
+     color: #424242;
+ }
+ 
+ 
+ .service-datetime-icons .modal-header button {
+     outline: none !important;
+     border: none !important;
+     background: transparent;
+ }
+ 
+ .service-datetime-icons .modal-header .close-btn {
+     font-size: 28px;
+     font-weight: 500;
+     position: absolute;
+     right: 3%;
+     top: 3%;
+ }
+ 
+ .service-datetime-icons .modal-header .modal-datetime {
+     font-size: 22px;
+     color: #4F4F4F;
+     font-weight: 600;
+ }
+ 
+ .service-datetime-icons .modal-content {
+     padding: 10px;
+ }
+ 
+ .service-datetime-icons .modal-body .body-text {
+     display: block;
+     font-size: 16px;
+ }
+ 
+ .service-datetime-icons .modal-body .body-text .payment {
+     font-size: 26px;
+     color: #1D7A8C;
+     font-weight: 700;
+     margin-left: 5px;
+ }
+ 
+ .service-datetime-icons .modal-body .customer-details {
+     margin-top: 10px;
+     border-top: 1px solid #dee2e6;
+     padding-top: 10px;
+ }
+ 
+ .service-datetime-icons .modal-body .customer-details .pets {
+     display: flex;
+     align-items: center;
+     margin-top: 1rem;
+ }
+ 
+ .service-datetime-icons .modal-body .customer-details .pets p {
+     margin-left: 5px;
+ }
+ 
+ .service-datetime-icons .modal-footer {
+     justify-content: flex-start;
+ }
+ 
+ .service-datetime-icons .modal-footer button {
+     border-radius: 30px;
+ }
+ 
+ .new-service .service-datetime-icons .modal-footer .btn-modal-accept,
+ .service-history-table .service-datetime-icons .modal-footer .btn-modal-accept {
+     width: 100px;
+     display: flex;
+     background-color: #67b644;
+     color: white;
+ }
+ 
+ .upcoming-service-table .service-datetime-icons .modal-footer .btn-modal-accept {
+     width: 100px;
+     display: flex;
+     background-color: #1D7A8C;
+     color: white;
+ }
+ 
+ .service-datetime-icons .modal-footer .btn-modal-accept img {
+     width: 20px;
+     margin-right: 3px;
+ }
+ 
+ .service-datetime-icons .modal-footer .btn-modal-close {
+     width: 100px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: #FF6B6B;
+     color: white;
+ }
+ 
+ .service-datetime-icons #service-info-modal2 .modal-content,
+ .service-datetime-icons #service-info-modal .modal-content {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .modal-content .googleMap #map,
+ .modal-content .googleMap iframe {
+     margin-left: auto;
+     height: 400px;
+     width: 400px;
+ }
+ 
+ .total-records .shown-records {
+     margin-left: 1rem;
+     color: #4F4F4F;
+ }
+ 
+ .total-records .shown-records select,
+ .my-rating .shown-records select {
+     width: 80px;
+     height: 40px;
+     margin-left: 5px;
+     font-size: 16px;
+     outline: none;
+     border: 1px solid #ced4da;
+     color: #4f4f4f;
+ }
+ 
+ .total-records .shown-records span {
+     padding-left: 5px;
+ }
+ 
+ .navigate-page .pagination .page-item {
+     padding: 3px;
+ }
+ 
+ .navigate-page .pagination {
+     justify-content: end;
+ }
+ 
+ .navigate-page .pagination .page-item i {
+     font-size: 10px;
+ }
+ 
+ .navigate-page .pagination .page-item .next-icon img {
+     transform: rotate(180deg);
+ }
+ 
+ .navigate-page .pagination .page-item .page-link {
+     width: 35px;
+     text-align: center;
+     padding-top: 3px;
+     color: #1D7A8C;
+     height: 35px;
+     border-radius: 30px !important;
+ }
+ 
+ .navigate-page .pagination .page-item .page-link.active {
+     background-color: #1D7A8C;
+     color: white;
+ }
+ 
+ .my-setting {
+     margin-left: 1.5rem;
+ }
+ 
+ .my-setting .nav .nav-item {
+     width: 25%;
+     text-align: center;
+ }
+ 
+ .my-setting .nav a {
+     text-decoration: none;
+     color: #4F4F4F;
+ }
+ 
+ .my-setting .nav-tabs .nav-link {
+     border: none;
+ }
+ 
+ .my-setting .nav-tabs .nav-link.active {
+     color: #1D7A8C;
+     border-bottom: 2px solid #1D7A8C;
+     font-weight: 700;
+ }
+ 
+ .my-setting .account-status .status {
+     color: green;
+     font-weight: normal;
+ }
+ 
+ .my-setting .account-status h4 {
+     color: #4F4F4F;
+ }
+ 
+ .my-setting .basic-details {
+     margin-top: 1rem;
+     padding-bottom: 5px;
+     border-bottom: 1px solid #dee2e6;
+     display: flex;
+     flex-wrap: wrap;
+     color: #4F4F4F;
+     align-items: center;
+ }
+ 
+ .my-setting .basic-details img {
+     position: absolute;
+     right: 5%;
+     padding-bottom: 1.5rem;
+ }
+ 
+ .my-setting .details {
+     color: #4F4F4F;
+ }
+ 
+ .my-setting .details label {
+     padding-bottom: 5px;
+ }
+ 
+ .my-setting .details .row {
+     margin-top: 0.875rem;
+ }
+ 
+ .my-setting .details .spaces {
+     padding: 0px 8px;
+ }
+ 
+ .my-setting .details .form-control {
+     display: block;
+     width: 100%;
+     font-size: 16px;
+ }
+ 
+ .my-setting .details .sp-reg-form {
+     padding: 0px;
+ }
+ 
+ .my-setting .details .sp-reg-form input,
+ .my-setting .details .input-group-prepend .input-group-text {
+     margin-top: 0px;
+ }
+ 
+ .my-setting .details .dob .form-control-lg {
+     font-size: 16px;
+     background-color: white;
+     border: 1px solid #ced4da;
+     padding: 0.5rem 0.5rem;
+ }
+ 
+ .my-setting .details .dob .dob-fields {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 100%;
+ }
+ 
+ .my-setting .details .dob .form-group {
+     margin: 0;
+ }
+ 
+ .my-setting .details .nation select {
+     display: block;
+     font-size: 16px;
+     background-color: white;
+     border: 1px solid #ced4da;
+     width: 100%;
+ }
+ 
+ .my-setting .details .gender label {
+     padding-bottom: 0;
+     margin-top: 0;
+ }
+ 
+ .my-setting .details .gender .form-check-input:checked {
+     background-color: #1D7A8C;
+     border-color: #1D7A8C;
+ }
+ 
+ .my-setting .details .select-avatar {
+     margin-top: 1.2rem;
+ }
+ 
+ .my-setting .details .avatar img {
+     padding: 5px;
+     margin-top: 0.5rem;
+     cursor: pointer;
+ }
+ 
+ .my-setting .details .avatar .selected.active {
+     border: 2px solid #1D7A8C;
+     border-radius: 50%;
+ }
+ 
+ .my-setting .address-field .btn-setting-save button {
+     outline: none;
+     border: 1px solid #1D7A8C;
+     background-color: #1D7A8C;
+     height: 46px;
+     width: 80px;
+     border-radius: 46px;
+     color: white;
+     margin-bottom: 10px;
+ }
+ 
+ .my-setting .change-password .row {
+     padding-top: 0.5rem;
+     color: #4F4F4F;
+ }
+ 
+ .upcoming-service-footer {
+     position: relative;
+     bottom: 0;
+     left: 0;
+ }
+ 
+ .service-history .export-btn {
+     margin-left: auto;
+ }
+ 
+ .service-history .service-history-table {
+     margin-top: 1rem;
+ }
+ 
+ .service-history .export-btn button {
+     width: 70px;
+     padding: 5px;
+     background-color: #1D7A8C;
+     color: white;
+     outline: none;
+     border-radius: 20px;
+     border: 1px solid #1D7A8C;
+ }
+ 
+ .service-history .payment-and-export {
+     display: flex;
+     align-items: center;
+     text-align: center;
+ }
+ 
+ .dashboard .tab-label,
+ .service-history .tab-label,
+ .upcoming-service .tab-label,
+ .new-service .tab-label,
+ .my-rating .tab-label,
+ .block-customer .tab-label {
+     color: #4f4f4f;
+     display: none;
+ }
+ 
+ .my-rating .rating-header {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ .my-rating .rating-sorting {
+     text-align: right;
+ }
+ 
+ .my-rating .rating-card {
+     margin: 1rem 0;
+     border: 1px solid #dee2e6;
+     padding: 10px 15px;
+     color: #4f4f4f;
+ }
+ 
+ .my-rating .rating-record {
+     text-align: left;
+ }
+ 
+ .my-rating .rating-card-content {
+     display: flex;
+     align-items: center;
+     border-bottom: 1px solid #dee2e6;
+     padding-bottom: 0.7rem;
+ }
+ 
+ .my-rating .rating-card .customer-comment {
+     margin-top: 0.3rem;
+ }
+ 
+ .my-rating .rating-card .customer-comment p {
+     font-size: 14px;
+ }
+ 
+ .my-rating .rating-star {
+     margin-left: auto;
+     margin-right: 20px;
+ }
+ 
+ .my-rating .rating-card-content .service-info {
+     flex-direction: column;
+     margin-left: 10%;
+ }
+ 
+ .my-rating .rating-card-content .service-info a {
+     text-decoration: none;
+     color: #4f4f4f;
+ }
+ 
+ .my-rating .rating-card-content .service-info strong,
+ .my-rating .rating-card-content .service-info span {
+     margin-left: 5px;
+ }
+ 
+ .my-setting .rating-value select {
+     width: 100px;
+     border: 1px solid #dee2e6;
+ }
+ 
+ .block-customer .card .card-image,
+ .favourite-sp .card .card-image {
+     text-align: center;
+ }
+ 
+ .block-customer .card .card-image img,
+ .favourite-sp .card .card-image img {
+     border: 1px solid #9BA0A3;
+     border-radius: 50%;
+     margin-top: 1rem;
+     margin-bottom: 0.5rem;
+ }
+ 
+ .block-customer .card {
+     width: 30%;
+     margin: 10px;
+ }
+ 
+ .block-customer,
+ .favourite-sp {
+     display: flex;
+ }
+ 
+ .block-customer .card .btn-block,
+ .favourite-sp .card .btn-block {
+     margin: 1rem auto;
+ }
+ 
+ .block-customer .card h5,
+ .favourite-sp .card h5 {
+     text-align: center;
+     color: #4f4f4f;
+ }
+ /* ------customer-service history starts here----- */
+ 
+ 
+ .customer-screen-banner .navbar-nav {
+    align-items: center;
+}
+
+.customer-screen-banner .faq-nav .nav-item {
+    padding: 0 10px;
+}
+
+.customer-screen-banner .navbar-nav .book-now {
+    border: 1px solid #FFFFFF80;
+    height: 40px;
+    width: 120px;
+    border-radius: 40px;
+    background-color: #146371;
+}
+
+.customer-screen-banner .navbar-nav .book-now .nav-link {
+    text-align: center;
+}
+
+.tab-sections .dashboard .current-service-req {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #646464;
+}
+
+.tab-sections .dashboard .current-service-req button {
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: #1D7A8C;
+    color: white;
+    padding: 8px 10px;
+}
+
+.tab-sections .dashboard .current-service-req-table {
+    margin-top: 1rem;
+}
+
+.tab-sections .dashboard .current-service-req-table .table-header,
+.tab-sections .dashboard .current-service-req-table tbody {
+    text-align: center;
+}
+
+.tab-sections .dashboard .current-service-req-table .payment-content,
+.tab-sections .cust-service-history-table .payment-content {
+    color: #1D7A8C;
+    font-size: 22px;
+    white-space: nowrap;
+}
+
+.dashboard .current-service-req-table .action-buttons .btn-cancel {
+    outline: none;
+    border: none;
+    background-color: #FF6B6B;
+    color: white;
+    width: 80px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.dashboard .current-service-req-table .action-buttons .btn-reschedule {
+    outline: none;
+    border: none;
+    background-color: #146371;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.current-service-req-table .modal-content {
+    display: block;
+    text-align: left;
+}
+
+.current-service-req-table .modal-content .body-text .payment,
+.cust-service-history-table #cust-service-history-modal .modal-content .payment {
+    margin-left: 25%;
+}
+
+.current-service-req-table .modal-content .modal-footer .btn-modal-accept {
+    background-color: #146371;
+    color: white;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    padding: 10x;
+    height: 40px;
+}
+
+.current-service-req-table .modal-content .modal-footer .btn-modal-accept img {
+    margin-right: 5px;
+}
+
+.current-service-req-table .modal-content .modal-body .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.current-service-req-table .modal-header {
+    border-bottom: 0;
+    justify-content: center;
+    padding-bottom: 0;
+}
+
+.current-service-req-table .modal-header .modal-title,
+.current-service-req-table .modal-footer {
+    justify-content: center;
+}
+
+.current-service-req-table .modal-header button,
+.cust-service-history-table .modal-header button {
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    position: absolute;
+    right: 5%;
+}
+
+.current-service-req-table .modal-footer {
+    border-top: 0;
+    padding-top: 0;
+}
+
+.current-service-req-table .modal-content .modal-body span {
+    margin: 5px;
+}
+
+.current-service-req-table .modal-content .modal-body .date-picker,
+.current-service-req-table .modal-content .modal-body select {
+    margin-top: 0.5rem;
+    border: 1px solid #dee2e6;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.current-service-req-table #reschedule-modal .modal-footer .btn-modal-accept,
+#cancel-modal .modal-footer .btn-modal-accept {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+#cancel-modal .modal-content .modal-body textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 0.5rem;
+}
+
+#cancel-modal .modal-content .modal-body {
+    padding: 15px;
+}
+
+#cancel-modal .modal-footer .btn-modal-accept {
+    background-color: #1d7a8c;
+    font-weight: 600;
+}
+
+.current-service-req-table .sp-content,
+.cust-service-history-table .sp-content {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.current-service-req-table .sp-content .sp-avatar img,
+.cust-service-history-table .sp-content .sp-avatar img {
+    width: 60px;
+    border: 1px solid #646464;
+    border-radius: 50%;
+}
+
+.current-service-req-table .sp-content .sp-name-rating b {
+    margin-right: 50px;
+}
+
+.cust-service-history-table .sp-content .sp-name-rating b {
+    margin-left: 8px;
+}
+
+.current-service-req-table .sp-content .sp-rating,
+.cust-service-history-table .sp-content .sp-rating {
+    margin-left: 5px;
+}
+
+.current-service-req-table #current-service-modal2 .modal-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.current-service-req-table #current-service-modal2 .modal-sp-details,
+#cust-service-history-modal2 .modal-sp-details {
+    border-left: 1px solid #dee2e6;
+    padding: 0px 1.5rem;
+}
+
+#current-service-modal2 .modal-sp-details .sp-content .sp-rating,
+#cust-service-history-modal2 .modal-sp-details .sp-content .sp-rating {
+    display: flex;
+    align-items: center;
+}
+
+#current-service-modal2 .sp-content .sp-name-rating b,
+#cust-service-history-modal2 .sp-content .sp-name-rating b {
+    margin-left: 15px;
+}
+
+#current-service-modal2 .modal-sp-details .sp-content .sp-avatar img,
+#cust-service-history-modal2 .modal-sp-details .sp-content .sp-avatar img {
+    width: 80px;
+}
+
+#current-service-modal2 .modal-sp-details .sp-content .sp-rating img,
+#cust-service-history-modal2 .modal-sp-details .sp-content .sp-rating img {
+    width: 25px;
+    padding: 2.5px;
+}
+
+#current-service-modal2 .modal-sp-details .sp-content .sp-name-rating,
+#cust-service-history-modal2 .modal-sp-details .sp-content .sp-name-rating {
+    margin-left: 15px;
+}
+
+#current-service-modal2 .modal-sp-details .sp-content .sp-rating,
+#cust-service-history-modal2 .modal-sp-details .sp-content .sp-rating {
+    margin-left: 11px;
+    padding-bottom: 5px;
+}
+
+#current-service-modal2 .sp-name-rating span,
+#cust-service-history-modal2 .sp-name-rating span {
+    margin-left: 15px;
+}
+
+#current-service-modal2 .modal-footer,
+#current-service-modal .modal-footer {
+    justify-content: left;
+}
+
+.cust-service-history-table .table {
+    margin-top: 1rem;
+}
+
+.cust-service-history-table .status-cancelled {
+    background-color: #FF6B6B;
+    font-size: 12px;
+    width: 100px;
+    text-align: center;
+    font-weight: 600;
+    color: white !important;
+}
+
+.cust-service-history-table .status-completed {
+    background-color: #67b644;
+    width: 100px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 600;
+    color: white !important;
+}
+
+.cust-service-history-table .status-refund {
+    background-color: orangered;
+    font-size: 12px;
+    width: 100px;
+    text-align: center;
+    font-weight: 600;
+    color: white !important;
+}
+
+.cust-service-history-table .action-buttons .btn-rate-sp {
+    width: 70px;
+    background-color: #6DA9B5;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.cust-service-history-table #cust-service-history-modal .modal-content {
+    display: block;
+}
+
+#cust-service-history-modal2 .modal-body {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cust-service-history-table .service-datetime-icons .modal-content {
+    display: block;
+}
+
+#rate-sp-modal2 .modal-header {
+    display: block;
+}
+
+#rate-sp-modal2 .modal-header button {
+    top: 5%;
+}
+
+#rate-sp-modal2 .modal-body .types-of-rating b {
+    display: block;
+}
+
+#rate-sp-modal2 .modal-body .cust-rating {
+    display: flex;
+    align-items: center;
+}
+
+#rate-sp-modal2 .modal-body .stars {
+    margin-left: 0.5rem;
+}
+
+#rate-sp-modal2 .modal-body .cust-feedback,
+#rate-sp-modal2 .modal-title {
+    margin-top: 0.5rem;
+}
+
+#rate-sp-modal2 .modal-body .cust-feedback textarea {
+    width: 100%;
+    height: 60px;
+    resize: none;
+}
+
+#rate-sp-modal2 .modal-footer {
+    justify-content: left;
+}
+
+#rate-sp-modal2 .modal-footer .btn-modal-accept {
+    outline: none;
+    border: none;
+    background-color: #1D7A8C;
+    color: white;
+    font-weight: 600;
+    width: 90px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.favourite-sp .card {
+    width: 35%;
+    margin: 10px;
+}
+
+.favourite-sp .rating-stars {
+    text-align: center;
+}
+
+.favourite-sp .card p {
+    margin-top: 0.7rem;
+    color: #646464;
+}
+
+.favourite-sp .favourite-pro-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.favourite-sp .favourite-pro-btns .btn-block {
+    margin: 0 5px;
+}
+
+.favourite-sp .favourite-pro-btns .btn-remove button {
+    outline: none;
+    margin: 0 5px;
+    border: none;
+    width: 80px;
+    height: 34px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #1D7A8C;
+    color: white;
+}
