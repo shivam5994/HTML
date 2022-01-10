@@ -273,8 +273,7 @@
     
     .blog-section-content .card {
         margin-top: 64px;
-        /* width: 357px;
-    height: 366px; */
+       
         width: 20rem;
         padding-bottom: 10px;
         box-shadow: 0px 0px 30px #E4EBF0;
@@ -633,7 +632,7 @@
         width: 100%;
     }
 
-   /* Prices page css starts here*/
+   /*----- Prices page css starts here-----*/
 
 .prices-banner-img img {
     margin-top: 3.7rem;
@@ -1830,7 +1829,7 @@
      text-align: center;
      color: #4f4f4f;
  }
- /* ------customer-service history starts here----- */
+ /* ------customer > service history starts here----- */
  
  
  .customer-screen-banner .navbar-nav {
